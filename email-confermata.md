@@ -30,11 +30,17 @@ Hai bisogno di aiuto? Scrivi all’[assistenza](assistenza.md).
   // già usato. Si guarda solo se c'è un errore, poi l'indirizzo si ripulisce:
   // i codici non restano nella barra né nella cronologia del browser.
   (function () {
-    var dati = (location.hash || '').slice(1) + '&' + (location.search || '').slice(1);
-    if (/(^|&)error(_code)?=/.test(dati)) {
-      document.getElementById('esito-ok').hidden = true;
-      document.getElementById('esito-errore').hidden = false;
+    function aggiorna() {
+      if (!location.hash && !location.search) return;
+      var dati = location.hash.slice(1) + '&' + location.search.slice(1);
+      var errore = /(^|&)error(_code)?=/.test(dati);
+      document.getElementById('esito-ok').hidden = errore;
+      document.getElementById('esito-errore').hidden = !errore;
+      history.replaceState(null, '', location.pathname);
     }
-    if (location.hash || location.search) history.replaceState(null, '', location.pathname);
+    aggiorna();
+    // Un secondo link aperto nella stessa scheda cambia solo la parte dopo
+    // «#»: la pagina non si ricarica, e resterebbe l'esito del primo.
+    window.addEventListener('hashchange', aggiorna);
   })();
 </script>
