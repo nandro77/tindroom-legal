@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+        <ul>
+          <li><a href="{{ "/privacy-policy" | relative_url }}">Privacy policy</a></li>
+          <li><a href="{{ "/termini" | relative_url }}">Termini di utilizzo</a></li>
+          <li><a href="{{ "/elimina-account" | relative_url }}">Elimina il tuo account</a></li>
+          <li><a href="{{ "/assistenza" | relative_url }}">Assistenza</a></li>
+        </ul>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Tindroom · <a href="{{ "/assistenza" | relative_url }}">Assistenza</a></small></p>
+      </footer>
+    </div>
+  </body>
+</html>
