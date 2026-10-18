@@ -5,7 +5,7 @@ lang: it
 
 # Privacy policy di Tindroom
 
-*Ultimo aggiornamento: 17 ottobre 2026 · Versione 6*
+*Ultimo aggiornamento: 18 ottobre 2026 · Versione 7*
 
 ## 1. Chi tratta i tuoi dati
 
@@ -30,7 +30,7 @@ Usiamo i tuoi dati solo per far funzionare Tindroom: mostrarti offerte o profili
 Le basi giuridiche sono:
 
 - **esecuzione del contratto** (art. 6.1.b GDPR), cioè dei Termini che accetti iscrivendoti: account, profilo, offerte, ricerche, match, chat e recensioni;
-- **legittimo interesse** a proteggere le persone e il servizio (art. 6.1.f GDPR): segnalazioni, blocchi, moderazione, controlli contro truffe e abusi, verifica dell’integrità dell’app;
+- **legittimo interesse** a proteggere le persone e il servizio (art. 6.1.f GDPR): segnalazioni, blocchi, moderazione, controlli contro truffe e abusi, verifica dell’integrità dell’app, consegna delle email di servizio;
 - **obblighi di legge** (art. 6.1.c GDPR), quando la legge ci chiede di conservare o fornire dati;
 - **consenso** (artt. 6.1.a e 9.2.a GDPR) per le informazioni facoltative che possono rivelare aspetti personali, come la preferenza per un ambiente LGBT-friendly: le inserisci solo se vuoi e puoi toglierle in qualsiasi momento dal profilo.
 
@@ -44,7 +44,7 @@ Li proteggiamo così: le connessioni tra l’app e i server sono cifrate (HTTPS)
 
 Le mappe e le ricerche geografiche usano OpenStreetMap, Nominatim, Photon (Komoot) e Overpass. Questi servizi ricevono l’indirizzo IP e i dati necessari alla richiesta (nomi dei luoghi, coordinate o area della mappa). Non inviamo loro email, password o chat.
 
-Le email di servizio, come la conferma dell’indirizzo e il codice per recuperare la password, partono tramite il fornitore di posta del servizio di autenticazione, che riceve il tuo indirizzo email e il testo del messaggio.
+Le email di servizio, come la conferma dell’indirizzo e il codice per recuperare la password, partono tramite il fornitore di posta del servizio di autenticazione, che riceve il tuo indirizzo email e il testo del messaggio. Per garantirne la consegna il fornitore registra anche se l’email viene aperta e se ne tocchi i collegamenti, e mostra nel tuo programma di posta la voce «Annulla iscrizione»: se la usi non ricevi più conferme e codici, finché non lo chiedi all’assistenza.
 
 I documenti delle pratiche sono conservati in uno spazio privato separato dalle foto pubbliche. Le pratiche sono accessibili nell'app solo all'account che le gestisce, anche se collegate a un altro utente. La cittadinanza non viene usata per il matching. L'app non trasmette comunicazioni alle autorità: eventuali esportazioni e invii sono effettuati dall'utente.
 
